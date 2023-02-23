@@ -1,1 +1,22 @@
-/* your code */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table, td, th{
+    padding: 15px;
+    border-collapse: collapse;
+    text-align: center;
+    width: 700px;
+} 
+#bd{
+    border-spacing: 0;
+    border-radius: 12px
+}
+th{
+    background-color: #215A8E;
+    color: white;
+}
+tr:nth-child(even){
+    background-color: gainsboro;
+}
